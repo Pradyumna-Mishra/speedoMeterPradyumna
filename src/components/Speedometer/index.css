@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+.speedo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.speedo-heading {
+  color: #ffff;
+}
+.speedo-pera {
+  color: #94a3b8;
+}
+.speedo-img {
+  height: 500px;
+  width: 1000px;
+}
+
+.speed-acce {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 100px;
+  color: #ffff;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.speed-break {
+  background-color: transparent;
+  height: 30px;
+  width: 100px;
+  color: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+}
